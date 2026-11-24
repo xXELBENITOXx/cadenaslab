@@ -12,7 +12,7 @@
     {
       "binding": "DB",
       "database_name": "cadenaslab-db",
-      "database_id": "REEMPLAZAR_CON_ID_D1",
+      "database_id": "32b238e3-9fbf-4da4-97eb-d5faf51c3f97",
       "migrations_dir": "migrations"
     }
   ]
