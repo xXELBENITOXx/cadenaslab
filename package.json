@@ -1,0 +1,14 @@
+{
+  "name": "cadenaslab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Comparador académico de similitud textual con Python, Rabin-Karp, KMP y Cloudflare D1",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:local": "wrangler d1 migrations apply cadenaslab-db --local",
+    "db:remote": "wrangler d1 migrations apply cadenaslab-db --remote",
+    "test": "python -m unittest discover -s tests -v"
+  },
+  "devDependencies": {"wrangler": "^4.0.0"}
+}

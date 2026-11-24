@@ -1,0 +1,19 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "cadenaslab",
+  "main": "src/entry.py",
+  "compatibility_date": "2026-11-23",
+  "compatibility_flags": ["python_workers"],
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "cadenaslab-db",
+      "database_id": "REEMPLAZAR_CON_ID_D1",
+      "migrations_dir": "migrations"
+    }
+  ]
+}
